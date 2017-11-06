@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cookie Confectionary of Adriano Ippolito</title>
+  <link href="cookiecss.CSS" rel="stylesheet" type="text/css"> </link>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>	
+	<script type="text/javascript" src='cookiesgithub.js'> </script>
+</head>
+<body>
+	<h1> Welcome to Adriano's Cookie Confectionary</h1>
+  <a href="https://www.youtube.com/watch?v=Ye8mB6VsUHw" target="_blank"> <img style="margin: 0px; padding: 25px; width: 250px;" src="cookiemonst.jpg" alt="CookieMonster"> </a>
+	<h2> Please choose how many cookies you want with your favorite flavor!</h2>
+<form id="Form1">
+  Quantity of Sugar Cookies:
+  <input type="number" name="quantity" id='nrSugarCookies'> 
+  <button id="OrderSugarCookies"> Order here your Sugar Cookies!</button>
+  <input type="button" onclick="myFunction()" value="Reset">
+  <script> function myFunction() {
+    document.getElementById("Form1").reset();
+}
+</script>
+</form>	
+<br>	
+<form id='Form2'>
+  Quantity of Chocolate Cookies:
+  <input type="number" name="quantity" id='nrChocolateCookies'>
+  <button id="OrderChocolateCookies"> Order here your Chocolate Cookies! </button>
+  <input type="button" onclick="myFunction()" value="Reset">
+  <script> function myFunction() {
+  document.getElementById("Form2").reset();
+}
+</script>
+</form>	
+<br>
+<form id='Form3'>
+  Quantity of Lemon Cookies:
+  <input type="number" name="quantity" id='nrLemonCookies'>
+  <button id="OrderLemonCookies"> Order here your Lemon Cookies! </button>
+  <input type="button" onclick="myFunction()" value="Reset">
+  <script> function myFunction() {
+  document.getElementById("Form3").reset();
+}
+</script>
+</form>
+<br>
+	<script type="text/javascript" src='mycookie.js'> </script>
+</body>
+</html>
